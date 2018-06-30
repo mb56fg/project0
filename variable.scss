@@ -1,11 +1,16 @@
-$color: #ff8f00;
+$color1: #e1695b;
+$color2: #ff88a4;
+$fontol: 18px;
+$fontul: 16px;
+
+
 
 ul {
-    font-size: 14px;
-    color: $color;
+    font-size: $fontul;
+    color: $color1;
 }
 
 ol {
-    font-size: 18px;
-    color: $color;
+    font-size: $fontol;
+    color: $color2;
 }
