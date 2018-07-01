@@ -1,0 +1,23 @@
+%burrito {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %burrito;
+    background-color: green;
+}
+
+.warning {
+    @extend %burrito;
+    background-color: orange;
+}
+
+.error {
+    @extend %burrito;
+    background-color: red;
+}
