@@ -1,9 +1,6 @@
-
- div
+div
         {
          padding-top: 20px;
-
-
         }
 
 
@@ -41,6 +38,15 @@ p
     font-weight: bold;
 
 }
+
+
+ul > li {
+      color: green;
+     /* background-color: red; */
+
+    }
+
+
 
 
 #game
