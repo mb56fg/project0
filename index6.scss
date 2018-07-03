@@ -1,0 +1,31 @@
+  div {
+      font-size: 18px;
+      p {
+          color: blue;
+      }
+      ul {
+          color: green;
+      }
+  }
+
+
+
+%for_inher {
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+   .book_tables {
+      @extend %for_inher;
+      background-color: yellow;
+  }
+
+
+#names {
+
+    background-color: blue;
+    color: white;
+
+
+}

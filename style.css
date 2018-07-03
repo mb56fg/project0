@@ -1,12 +1,15 @@
- button:hover
-            {
-                background-color: white;
-            }
 
-img {
+ div
+        {
+         padding-top: 20px;
 
 
-       width:40%
+        }
+
+
+
+ img {
+      width:30%
 
        }
 
